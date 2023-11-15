@@ -1,0 +1,173 @@
+h2 {
+    color: #8f233b;
+}
+
+.kagehira {
+    text-align: center;
+}
+
+.agasa {
+    text-align: center;
+}
+
+kk {
+    color: #4caaf6;
+}
+
+h1 {
+    color: #8f233b;
+}
+
+body {
+    background-image: url('https://cdn.discordapp.com/attachments/894872571642785792/1118774958735241276/IMG_4589.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.line::before,
+.line::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    display: block;
+    background-color: #8f233b;
+}
+
+.line::before {
+    position: absolute;
+    top:50%;
+    left:38%;
+    transform: translateY(-50%);
+}
+.line::after {
+    position: absolute;
+    top:50%;
+    right:38%;
+    transform: translateY(-50%);
+}body {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border: double 5px #8f233b;
+}
+body  {
+    margin: 0; 
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.pagetop {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background: #fff;
+    border: solid 2px #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.pagetop__arrow {
+    height: 10px;
+    width: 10px;
+    border-top: 3px solid #000;
+    border-right: 3px solid #000;
+    transform: translateY(20%) rotate(-45deg);
+}
+
+@media (hover: hover) and (pointer: fine) {
+
+    .pagetop:hover,
+    .pagetop:hover .pagetop__arrow {
+        border-color: #3293e7;
+    }
+}
+.tweet-area{
+    text-align: center;
+}.cp_navi {
+	background-color: #ffffff;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	color: #888888;
+	display: block;
+	margin: 1em 1%;
+	overflow: hidden;
+	width: 100%;
+}
+.cp_navi ul {
+	margin: 0;
+	padding: 0;
+}
+.cp_navi ul li {
+	display: inline-block;
+	list-style-type: none;
+	-webkit-transition: all 0.2s;
+	        transition: all 0.2s;
+}
+.cp_navi > ul > li > a > .caret {
+	border-top: 4px solid #aaaaaa;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+	content: '';
+	display: inline-block;
+	height: 0;
+	width: 0;
+	vertical-align: middle;
+	-webkit-transition: color 0.1s linear;
+	        transition: color 0.1s linear;
+}
+.cp_navi > ul > li > a {
+	color: #aaaaaa;
+	display: block;
+	line-height: 56px;
+	padding: 0 10px;
+	text-decoration: none;
+}
+.cp_navi > ul > li:hover {
+	background-color: rgb(218, 60, 65);
+}
+.cp_navi > ul > li:hover > a {
+	color: rgb( 255, 255, 255 );
+}
+.cp_navi > ul > li:hover > a > .caret {
+	border-top-color: rgb( 255, 255, 255 );
+}
+.cp_navi > ul > li > div {
+	background-color: rgb(218, 60, 65);
+	border-top: 0;
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	display: none;
+	margin: 0;
+	opacity: 0;
+	position: absolute;
+	width: 165px;
+	visibility: hidden;
+	-webkit-transiton: opacity 0.2s;
+	       transition: opacity 0.2s;
+}
+.cp_navi > ul > li:hover > div {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+.cp_navi > ul > li > div ul > li {
+	display: block;
+}
+.cp_navi > ul > li > div ul > li > a {
+	color: #ffffff;
+	display: block;
+	padding: 12px 24px;
+	text-decoration: none;
+}
+.cp_navi > ul > li > div ul > li:hover > a {
+	background-color: rgba( 255, 255, 255, 0.1);
+}
